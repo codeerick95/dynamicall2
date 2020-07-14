@@ -1,4 +1,4 @@
-const url = 'http://chat.bpo.pe/WSDynamicall/api/landpage/landpage1 '
+const url = 'http://chat.bpo.pe/WSDynamicall/api/landpage/landpage1'
 
 const form = document.getElementById('form'),
     btnSubmit = document.getElementById('btnSubmit')
