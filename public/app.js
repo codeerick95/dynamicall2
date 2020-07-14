@@ -32,7 +32,7 @@ const getData = () => {
 const enviar = () => {
     btnSubmit.textContent = 'Enviando...'
 
-    let data = getData()
+    let PARAMETRO = getData()
 
     fetch(url, {
         method: 'POST',
@@ -40,7 +40,7 @@ const enviar = () => {
             'Accept': 'application/json',
             'Content-Type': 'application/json'
         },
-        body: JSON.stringify(data)
+        body: JSON.stringify(PARAMETRO)
     })
     .then(function(response) {
         respuesta.textContent = response
